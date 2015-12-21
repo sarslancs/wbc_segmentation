@@ -21,7 +21,7 @@ toc
 
 %% Show some results
 % Show labeled cells and their ids 
-imshow_labels_on(cells, 12);
+imshow_labels_on(cells, 14);
 % Show segmented cells imposed on image
 figure, imshow(impose_mask_on_image(im, cells, [255 0 0]));
 
