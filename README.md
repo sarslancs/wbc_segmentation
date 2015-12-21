@@ -1,7 +1,9 @@
 # Color and shape based white blood cell segmentation
  
 Produced and made publicly available by Salim Arslan 
+
 Home: doc.ic.ac.uk/~sa1013/
+
 Mail: name.surname@imperial.ac.uk
  
 Redistribution and use in source codes, with or without modification, are permitted provided that the following conditions are met:
