@@ -1,7 +1,7 @@
 function filtered = majority_filter(seg, W)
 %MAJORITY_FILTER A disk-based majority filter for post-processing
 %   Applied on the remaining cells to smooth their boundaries. Here, a 
-%   circle-shaped kernel with a radius of W is used.
+%   circle-shaped kernel with a radius of W is used. 
 
 domain = fspecial('disk',W) > 0;
 filtered = zeros(size(seg));
