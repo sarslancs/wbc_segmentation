@@ -1,6 +1,6 @@
 function [ cells ] = cell_segmentation( im, h, R, W )
 %CELL_SEGMENTATION Color and shape based white blood cell segmentation
-%   Segments white blood cells in peripheral Blood and bone marrow images
+%   Segments white blood cells in peripheral blood and bone marrow images
 %   as proposed in [1]. 
 %
 %   INPUT
@@ -14,7 +14,7 @@ function [ cells ] = cell_segmentation( im, h, R, W )
 %   
 %   REFERENCES
 %   [1] Arslan et al. 2014, A Color and Shape Based Algorithm for
-%   Segmentation of White Blood Cells inPeripheral Blood and Bone Marrow 
+%   Segmentation of White Blood Cells in Peripheral Blood and Bone Marrow 
 %   Images 
 
 fprintf('Segmentation process started.\n');
