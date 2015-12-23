@@ -6,25 +6,25 @@ function [ circleFitMarkers ] = circle_fit(labeled, rthr)
 %   than a circle threshold rthr [1]. Segmented cells are kept on which the 
 %   circle-fit algorithm can locate at least one circle; the rest is 
 %   eliminated from the results. Function is originally written for the
-%   the smart markers algorithm [2].
+%   smart markers algorithm [2].
 %
 %   CAUTION!
-%   An external executable is called located in circleFitNative. The codes
-%   are written in C and must be compiled prior to calling the circle_fit
+%   This function calls an external executable located in circleFitNative. 
+%   It is written in C and must be compiled prior to calling the circle_fit
 %   function. We have already provided you with the Windows and Linux 64bit 
 %   executables, but we would strongly suggest that you should compile the
-%   source codes given in the circleFit folder excusively by following the
-%   instructions below:
+%   source codes given in the circleFitNative folder excusively by following 
+%   the instructions below:
 %   1. Open a terminal
 %   2. cd into <directory you extracted Matlab source>/circleFitNative
 %   3. run gcc *.c -o circleFit_exe
-%   If you change the name of the exe file, do not forget to appyly the
-%   same change to exeName below.
+%   If you change the name of the exe file, do not forget to apply the
+%   same change to "exeName" below.
 %
 %   TROUBLESHOOT
 %   If you encounter the "Permission denied" error, run the command
 %   "chmod 755 circleFit_exe". This would change the read-write-execute
-%   permissions assigned to that file and (hopefully) solve the issue.
+%   permission assigned to that file and (hopefully) solve the issue.
 %
 %   REFERENCES
 %   [1]: Tosun et al, 2009, Object-oriented texture analysis for the 
