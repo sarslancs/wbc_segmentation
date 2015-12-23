@@ -1,7 +1,7 @@
 function [ imposed_im, boundaries ] = impose_mask_on_image(im, mask, c)
 %IMPOSEMASK Imposes a binary mask on an RGB image 
-%   Delineates the boundaries of a binary mask and imposes them on the RGB
-%   image.
+%   Delineates the boundaries of the binary MASK and imposes them on the RGB
+%   image IM with the color C.
 %
 % author: Salim Arslan (name.surname@imperial.ac.uk)
 % last updated: 21/12/2015
