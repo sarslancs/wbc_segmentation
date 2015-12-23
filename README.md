@@ -4,7 +4,7 @@ Produced and made publicly available by Salim Arslan (contact: name.surname@impe
  
 Redistribution and use in source codes, with or without modification, are permitted provided that the following conditions are met:
 
-- We kindly request that use of this software be cited in publications as: S. Arslan, E. Ozyurek, C. Gunduz-Demir "A color and shape based algorithm for segmentation of white blood cells in peripheral blood and bone marrow images," Cytometry Part A, vol. 85, no. 6, pp. 480-490, 2014. 
+- We kindly request that use of this software be cited in publications as: S. Arslan, E. Ozyurek, C. Gunduz-Demir "A color and shape based algorithm for segmentation of white blood cells in peripheral blood and bone marrow images," Cytometry Part A, vol. 85, no. 6, pp. 480-490, 2014. (http://www.ncbi.nlm.nih.gov/pubmed/24623453)
 
 - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
